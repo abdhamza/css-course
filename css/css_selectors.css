@@ -1,0 +1,47 @@
+/* universal selector is the one which selects everything on the page */
+* {
+    font-family: monospace;
+    border: 1px solid red;
+}
+/* first type of selector is element */
+body {
+    font-size: 24px;
+}
+/* this will change text size in body element to 24px. this will affect all other elements like paragraph or heading tag as well because they are inherited by body element */
+
+p {
+    /* this will change color of text in all p tags to purple */
+    color: purple;
+}
+
+h1, h2 {
+    color:blue;
+}
+
+/* selecting element within an element (nested element) */
+p span {
+    color: red;
+    background-color: gold;
+    text-transform: uppercase;
+}
+
+p span.highlight {
+    color: gold;
+    background-color: blue;
+    text-transform: uppercase;
+}
+
+/* class selector */
+/* another type of css selector is class selector */
+.red {
+    color: red;
+}
+
+/* id selector */
+/* another type of css selector is id selector */
+#second {
+    font-style: italic; 
+    /* note that the second p tag with id second is tuned into italic */
+}
+
+/* note that the id is unique for an element while class can be used again and again for different elements */
