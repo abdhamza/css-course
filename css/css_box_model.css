@@ -1,0 +1,30 @@
+/* css box model */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+.containeer {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 10px;
+    margin: 20px;
+  }
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+  

@@ -1,0 +1,20 @@
+/* typography is the way that text is arranged and presented */
+
+body {
+    padding: 15%;
+    font-size: 2rem;
+}
+
+input, button {
+    font: inherit;
+}
+
+p{
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+    text-align: justify;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+    /* in the above line we have given 4 different families. The style sheet will use any one of them available. The priority is set as they are written from high to low */
+}

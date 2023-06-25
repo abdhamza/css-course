@@ -1,0 +1,27 @@
+/* default font size of browser is 16px */
+/* we can change it according to our requirements */
+
+html {
+    font-size: 24px; /* now the default font size is set to 24px */
+}
+
+header {
+    width: 50%;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;  /* percentage is another unit for size */
+}
+
+/* h1 is nested in header element so when we give width of 50% it will take 50% width of header element. where, header is already set to take 50 percent width of html page */
+
+/* another way to change size is by using unit of rem */
+main {
+    font-size: 2rem; /*font size of main is set to 2rem */
+}
+p {
+    font-size: 2em; 
+    /*default size of paragraph is already set to 2rem as it is nested in main element */
+    /* when we set font-size of paragraph to 2em it doubles the size of paragraph from main element (parent element) */
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: not-allowed;
+    color: red;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:hover {
+    color: blue;
+    background: gold;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+/* note that this is the correct order of styling a tag */

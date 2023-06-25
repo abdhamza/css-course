@@ -1,5 +1,21 @@
+/* colors can be used in different formats as shown below */
 body {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background: papayawhip;
+    color: darkgreen;
+}
+
+p {
+    color: #0000ff;
+}
+
+span {
+    color: rgba(15, 238, 15, 0.473);
+}
+
+/* the fourth value is of a which stands for transparency */
+.highlight {
+    color: rgba(128, 0, 0, 0.527);
 }
