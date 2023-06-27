@@ -18,5 +18,22 @@ ul {
     color: blueviolet;
     line-height: 1.6;
     /* we can add image instead of list mark as well */
-    list-style-image: url(/images/checkmark.png);
+    /* list-style-image: url(/images/checkmark.png); */
+}
+
+/* 
+this will make all list items red
+li {
+    color: red;
+} */
+
+ul li:nth-child(2) { /*this will make second list item red */
+    color: red;
+}
+
+ul ::marker {
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5 >> ";
 }
