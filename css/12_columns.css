@@ -5,3 +5,12 @@ body {
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
 }
+
+.columns {
+    /* column-count: 4;
+    column-width: 250px; */
+    /* the above two lines can also be written as follows */
+    columns: 4 250px;
+    /* providing dividers between columns */
+    column-rule: 3px solid #333;
+}
