@@ -13,4 +13,30 @@ body {
     columns: 4 250px;
     /* providing dividers between columns */
     column-rule: 3px solid #333;
+    column-gap: 3rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2 {
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 1rem; 
+    /* when the screen size becomes smaller the background area could move to the second column */
+    /* To avoid that we can use the following property */
+    break-inside: avoid;
+}
+.columns .quote { /* .columns .quote is more specific to apply margin-top because we have already given margin top: o in (.columns p) for all p tags*/
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
