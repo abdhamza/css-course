@@ -39,4 +39,5 @@ body {
 
 .nowrap {
     white-space: nowrap;
+    /* with this property the - will remain in the same line with dell E7424 Machine? */
 }
